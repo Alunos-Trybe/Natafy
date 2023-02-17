@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;0,900;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --dark-green: #357960;
+  --light-blue: #0cabba;
+  --black: #010101;
+  --white: #fdfdfd;
+  --salmon: #f5625d;
+  --yellow: #f4db1a;
+  --orange: #be5f24;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  border-radius: 100px;
+}
