@@ -6,11 +6,12 @@
   margin: 0;
   font-family: Poppins, sans-serif;
   scroll-behavior: smooth;
+  cursor: url("./assets/cursor_headphone.svg"), auto;
 }
 
 :root {
   --dark-green: #357960;
-  --light-blue: #0cabba;
+  --light-black: #1c1c1c;
   --black: #010101;
   --white: #fdfdfd;
   --salmon: #f5625d;

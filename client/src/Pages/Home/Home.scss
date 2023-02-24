@@ -1,5 +1,14 @@
 .Home{
     min-height: 100vh;
     height: 100%;
-    background-color: var(--black);
+    background-color: var(--light-black);
+
+    .Home__container{
+        display: flex;
+        flex-direction: row;
+        .Home__container-main{
+            border: 1px solid white;
+            width: 100%;
+        }
+    }
 }
